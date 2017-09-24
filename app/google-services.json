@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "180025377049",
+    "firebase_url": "https://gofit-e76bc.firebaseio.com",
+    "project_id": "gofit-e76bc",
+    "storage_bucket": "gofit-e76bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180025377049:android:16b2e4b9d6cce486",
+        "android_client_info": {
+          "package_name": "com.gofitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180025377049-d5fbl7tpt3dff7pvdac6ktrot201gqdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gofitapp",
+            "certificate_hash": "f82cda0fccf2cda734b89cca601645762014549b"
+          }
+        },
+        {
+          "client_id": "180025377049-52p79iag2grr6llpl282kd35moni5q8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23fLSVCizbLt2P6cIHvDsv0c9EgNxs7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180025377049-52p79iag2grr6llpl282kd35moni5q8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/img6"
+            android:title="HOME"
+            />
+        <item
+            android:id="@+id/nav_setr"
+            android:icon="@drawable/img7"
+            android:title="SET ROUTINE" />
+        <item
+            android:id="@+id/nav_trackr"
+            android:icon="@drawable/img3"
+            android:title="TRACK ROUTINE" />
+        <item
+            android:id="@+id/nav_locate"
+            android:icon="@drawable/img4"
+            android:title="LOCATE GYM" />
+
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/img5"
+            android:title="DIET" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/img5"
+            android:title="MOTIVATIONAL VIDEO" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/img8"
+            android:title="LOGOUT" />
+    </group>
+
+</menu>

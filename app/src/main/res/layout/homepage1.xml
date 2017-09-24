@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1"
+    android:id="@+id/content_homepage"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gofitapp.MainActivity"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOULDERS"
+            android:id="@+id/shoulder"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHEST"
+            android:id="@+id/chest"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="19dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOREARMS"
+            android:layout_marginTop="117dp"
+            android:layout_marginLeft="6dp"
+            android:clickable="true"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OBLIQUES"
+            android:id="@+id/obliques"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUADS"
+            android:id="@+id/quads"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="40dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BICEPS"
+            android:id="@+id/biceps"
+            android:layout_marginTop="72dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABS"
+            android:id="@+id/abs"
+            android:clickable="true"
+            android:layout_marginTop="142dp"
+            android:layout_marginRight="45dp"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABDUCTORS"
+            android:layout_marginTop="277dp"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:id="@+id/textView3" />
+
+</RelativeLayout>

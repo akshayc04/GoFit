@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background1"
+        android:scaleType="fitXY"
+        android:opacity="transparent"
+        android:alpha="0.3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/catlogo"
+        android:layout_width="match_parent"
+        android:scaleX="1.5"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo1"
+        android:alpha="0.85"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/cattext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catlogo"
+        android:layout_marginTop="30dp"
+        android:text="CHOOSE CATEGORY"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/catbtn1"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/cattext"
+        android:layout_centerHorizontal="true"
+        android:text="Beginner" />
+
+    <Button
+        android:id="@+id/catbtn2"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/catbtn1"
+        android:layout_centerHorizontal="true"
+        android:text="Intermediate" />
+
+    <Button
+        android:id="@+id/catbtn3"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold"
+        android:layout_below="@+id/catbtn2"
+        android:layout_centerHorizontal="true"
+        android:text="Expert" />
+
+
+</RelativeLayout>

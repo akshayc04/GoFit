@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gofitapp.Start_Workout_Fragment1">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/rdes">
+
+       <ImageView
+           android:id="@+id/strt_img1"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:src="@drawable/img4"
+           android:layout_marginTop="20dp"
+           android:layout_centerHorizontal="true"/>
+
+       <Chronometer
+           android:id="@+id/strt_chrono"
+           android:layout_width="wrap_content"
+           android:layout_height="60dp"
+           android:textSize="50sp"
+           android:textColor="#FFFFFF"
+           android:layout_marginTop="20dp"
+           android:layout_below="@id/strt_img1"
+           android:layout_centerHorizontal="true"
+           />
+
+       <SeekBar
+           android:id="@+id/strt_seek"
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:layout_below="@+id/strt_chrono"
+           android:thumbTint="#000000"
+           android:secondaryProgressTint="#000000"
+           android:progressTint="#FFFFFF"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/button_shape"
+           />
+
+     <Button
+         android:id="@+id/strt_btn1"
+         android:layout_width="200dp"
+         android:layout_height="70dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/button_shape"
+         android:text="Begin"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@+id/strt_seek"/>
+
+       <Button
+           android:id="@+id/strt_btn2"
+           android:layout_width="200dp"
+           android:layout_height="70dp"
+           android:layout_marginTop="20dp"
+           android:text="Done"
+           android:background="@drawable/button_shape"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/strt_btn1"/>
+
+
+   </RelativeLayout>
+
+</FrameLayout>

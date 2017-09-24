@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gofitapp.Signup">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background1"
+        android:scaleType="fitXY"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/loginlogo"
+        android:src="@drawable/logo1"
+        android:alpha=".85"
+        android:layout_marginTop="15dp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:hint="Enter your password*"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="90dp"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15.3sp"
+        android:layout_below="@+id/loginlogo" />
+
+    <EditText
+        android:id="@+id/edit_text_email2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:hint="Enter your email*"
+        android:inputType="textEmailAddress"
+        android:nextFocusDown="@+id/edit_text_password"
+        android:padding="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15.3sp"
+        android:layout_below="@+id/loginlogo" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="*Required Fields"
+        android:layout_below="@id/edit_text_password2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/btn_signup2"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/edit_text_password2"/>
+
+
+</RelativeLayout>
