@@ -5,28 +5,27 @@
     tools:context="com.gofitapp.BeginnerRoutineFragment">
 
     <!-- TODO: Update blank fragment layout -->
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <android.support.v7.widget.RecyclerView
-
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:id="@+id/beginnerlist"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginTop="10dp">
-    </android.support.v7.widget.RecyclerView>
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/button_shape"
-        android:layout_margin="10dp"
-        android:text="Start Workout"
-        android:textSize="20sp"
-        android:id="@+id/button2" />
+        <android.support.v7.widget.RecyclerView
 
-</RelativeLayout>
+            android:id="@+id/beginnerlist"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignStart="@+id/button2"
+            android:layout_marginTop="10dp"></android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_shape"
+            android:text="Start Workout"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
 </FrameLayout>

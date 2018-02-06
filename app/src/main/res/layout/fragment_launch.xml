@@ -2,10 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:id="@+id/launch"
-    android:scaleType="centerInside"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:adjustViewBounds="true"
     tools:context="com.gofitapp.LaunchscreenActivity">
 
@@ -19,20 +18,21 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
         android:id="@+id/loginlogo1st"
         android:src="@drawable/logo1"
         android:alpha=".75"
-        android:scaleX="1.4"
+        android:scaleX="0.9"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:layout_marginTop="15dp" />
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="LET'S GO !!!"
         android:textSize="30sp"
+        android:padding="20dp"
         android:alpha="0.85"
         android:id="@+id/btn_letsgo"
         android:background="@drawable/button_shape"
@@ -42,9 +42,10 @@
         android:layout_below="@+id/loginlogo1st"/>
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="ABOUT"
+        android:padding="20dp"
         android:alpha="0.85"
         android:textSize="30sp"
         android:id="@+id/btn_about"
