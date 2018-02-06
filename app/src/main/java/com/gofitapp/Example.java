@@ -1,8 +1,6 @@
 package com.gofitapp;
 
-/**
- * Created by anarasim on 4/26/2017.
- */
+
 
 
 

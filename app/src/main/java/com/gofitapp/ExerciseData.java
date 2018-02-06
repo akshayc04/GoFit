@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-/**
- * Created by anarasim on 4/10/2017.
- */
+
 
 public class ExerciseData {
     String name;

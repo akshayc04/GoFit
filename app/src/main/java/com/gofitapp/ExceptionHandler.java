@@ -3,9 +3,7 @@ package com.gofitapp;
 import android.app.Activity;
 import android.util.Log;
 
-/**
- * Created by anarasim on 4/25/2017.
- */
+
 
 public class ExceptionHandler implements java.lang.Thread.UncaughtExceptionHandler {
     Activity activity;

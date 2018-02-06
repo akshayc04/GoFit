@@ -11,9 +11,6 @@ import android.util.Log;
 import android.widget.Toast;
 
 
-/**
- * Created by anarasim on 4/25/2017.
- */
 
 public class MyPhoneReceiver extends BroadcastReceiver {
 
